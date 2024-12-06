@@ -21,7 +21,7 @@ func main() {
 	var wg sync.WaitGroup
 
 	wg.Add(1)
-	fmt.Println("Enter an integer : ")
+	fmt.Println("Enter an integer :  ")
 	fmt.Scanln(&n)
 	go f(n, &wg)
 
